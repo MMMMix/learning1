@@ -18,4 +18,7 @@ canvas.bind("<B1-Motion>", paint)
 label = tk.Label(root, text="Drag your left button of mouse to paint.")
 label.pack(side='bottom')
 
+def text():
+	retrun 'Mix'
+
 tk.mainloop()
